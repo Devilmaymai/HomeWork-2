@@ -16,15 +16,15 @@
 
 高密度脂蛋白(HDL)：mg/dL。
 
-背景資料(background)：抽菸與否、是否有糖尿病、是否有家族病史。
+背景資料(background)：抽菸與否(smoking)、是否有糖尿病(diabetes)、是否有家族病史(family history)。1為true，0為false。
 
 ## 規則
-![](https://imgur.com/sbKg4xP.png)
+![](https://imgur.com/HOzaw4g.png)
 
 ## Dataset
 根據前述規則，共做出400筆資料，其中前300用來training，後100用來test。
 
-如附檔，下圖為前五筆資料。
+如附檔，下圖為前五筆資料。CHD那欄為解答(1為高風險，0為低風險)。
 
 ![](https://imgur.com/NNNcjQA.png)
 
