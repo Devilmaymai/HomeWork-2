@@ -3,7 +3,7 @@
 ## 問題
 ### 冠狀動脈心臟疾病(coronary heart disease, CHD)風險預估
 
-根據Prediction of Coronary Heart Disease Using Risk Factor Categories(Peter W. F. Wilson et al., 1998)這份研究論文指出的風險因子，
+根據Prediction of Coronary Heart Disease Using Risk Factor Categories (Peter W. F. Wilson et al., 1998)這份研究論文指出的風險因子，
 簡化後訂定出規則，並依此規則做出400筆數據，之後再實作決策樹並測試。
 
 ## 特徵
