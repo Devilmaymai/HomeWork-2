@@ -31,8 +31,10 @@
 ![](https://imgur.com/NNNcjQA.png)
 
 ## 決策樹
-File: HW2
+所作出的決策樹如下圖。(File: HW2)
 ![](https://imgur.com/Sph4Tny.png)
+針對testing data的預測準確度為0.78
+![](https://imgur.com/oaqAp9R.png)
 
 
 ## 討論
@@ -42,8 +44,9 @@ File: HW2
 
 而這很有可能是因為血壓的預設判斷規則是屬於X+Y>1的類型，而導致決策樹無法找出關聯；
 背景資料(background)的預設規則，則是屬於X+Y+Z>2的類型，所以決策樹也不容易作出來。
+這也可能導致準確度差強人意。
 
-至於準確度差強人意，則有可能是不對稱資料所導致，或是CHD=0的資料不足所導致。
+不過準確度差強人意，也有可能是不對稱資料所致，或是CHD=0的資料不足所導致。
 因此調整了取training data及testing data，改成取後300筆資料當training data，剩下的前100筆資料則是當testing data，再做一次。
 (File: HW2_balanced)
 ![](https://imgur.com/7uYt9cX.png)
