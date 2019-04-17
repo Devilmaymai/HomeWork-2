@@ -31,7 +31,9 @@
 ![](https://imgur.com/NNNcjQA.png)
 
 ## 決策樹
+File: HW2
 ![](https://imgur.com/Sph4Tny.png)
+
 
 ## 討論
 可以看到經由training data所做出來的決策樹跟預設的規則相差甚多，而利用此決策樹針對test data作預測的準確度有0.78，也算差強人意。
