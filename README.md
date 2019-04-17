@@ -23,6 +23,8 @@
 
 ## Dataset
 根據前述規則，共做出400筆資料，其中前300用來training，後100用來test。
+而為了模擬較常遇到情形，所以training data中CHD的0與1的數據有unbalance的情形，也就是CHD=1的數量多於CHD=0的數量。
+而在testing data中為了個直覺的看出預測錯誤的數據，因此全部都是CHD=0的數據。
 
 如附檔，下圖為前五筆資料。CHD那欄為解答(1為高風險，0為低風險)。
 
@@ -32,4 +34,6 @@
 ![](https://imgur.com/Sph4Tny.png)
 
 ## 討論
-可以看到經由training data所做出來的決策樹跟預設的規則相差甚多
+可以看到經由training data所做出來的決策樹跟預設的規則相差甚多，而利用此決策樹針對test data作預測的準確度有0.78，也算差強人意。
+
+
