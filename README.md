@@ -46,7 +46,7 @@
 (File: HW2_balanced)
 ![](https://imgur.com/7uYt9cX.png)
 
-得到的決策樹與預測準確度如下圖。
+得到的決策樹與預測準確度如下圖。(File: tree_balanced) 
 ![](https://imgur.com/ZFrdRc1.png)
 決策樹依然在血壓及背景資料(background)的規則上與預期有差異，而在Total cholesterol、LDL及HDL則一樣出現較接近原本預設的規則。
 ![](https://imgur.com/mBw5Oge.png)
